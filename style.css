@@ -1,0 +1,82 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html, body {
+    background-color: hsl(217, 54%, 11%);
+    font-family: 'Outfit', sans-serif;
+    height: 100vh;
+    width: 100%;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+.wrapper {
+    margin: 0 auto;
+
+}
+.nft-project {
+    width: 95%;
+    background-color: hsl(216, 50%, 16%);
+    padding: 1rem 1rem;
+    border-radius: 4%;
+}
+.nft-image img {
+    width: 100%;
+    height: 250px;
+    border-radius: 2%;
+}
+.nft-article h1 {
+    font-size: 17px;
+    color: hsl(0, 0%, 100%);
+    margin-top: 5%;
+    margin-bottom: 6%;
+}
+.nft-article p {
+    color: hsl(215, 51%, 70%);
+    margin-bottom: 6%;
+    font-size: 14px;
+}
+.art {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 8%;
+}
+.art span {
+    font-size: 13px;
+    vertical-align: middle;
+}
+.art-eth {
+    color: hsl(178, 100%, 50%);
+    font-weight: bold;
+}
+.art-days {
+    color: hsl(215, 51%, 70%);
+}
+.art svg {
+    display: inline-block;
+    vertical-align: middle;
+}
+hr {
+    color: hsl(215, 32%, 27%);
+    margin-top: 1%;
+    margin-bottom: 5%;
+}
+.creators-info {
+    font-size: 13px;
+    display: flex;
+}
+.creators-info p {
+    margin-top: 2%;
+    color: hsl(0, 0%, 100%);
+}
+.creators-info span {
+    color: hsl(215, 51%, 70%);
+}
+.creators-info img {
+    width: 25px;
+    margin-right: 5%;
+    border: 1px solid #fff;
+    border-radius: 50%;
+}
